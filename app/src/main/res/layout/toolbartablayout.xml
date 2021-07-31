@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="3dp"
+    android:background="@color/gray_light"
+    app:menu="@menu/toptoolbarthreedot"
+    android:orientation="vertical"
+    app:layout_scrollFlags="scroll|enterAlways|snap"
+    >
+
+    <Button
+        android:layout_width="20dp"
+        android:layout_height="25dp"
+        android:id="@+id/btnTextViewForTab"
+        android:text="1"
+        android:gravity="center"
+        android:textSize="10dp"
+        android:background="@drawable/tabbuttonbackground"
+        android:elevation="10dp">
+
+    </Button>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:weightSum="10"
+        >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="4dp"
+            android:elevation="2dp"
+
+            android:background="@drawable/btngooglesearchs"
+            android:layout_weight="9.2"
+            android:weightSum="9">
+
+
+            <ImageButton
+                android:id="@+id/btnmic"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_mic_none_black_24dp"
+                android:background="@drawable/micbuttonbackground"
+                android:layout_gravity="center"
+                android:layout_marginLeft="2dp">
+            </ImageButton>
+
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_weight="7.8"
+                android:layout_height="35dp"
+                android:hint="Enter Url or Search"
+                android:imeOptions="actionGo"
+                android:maxLines="1"
+                android:background="@android:color/transparent"
+                android:textColor="@color/black"
+                android:id="@+id/address_input"
+                android:inputType="textAutoComplete">
+            </EditText>
+
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="20dp"
+                android:id="@+id/refresh"
+                android:layout_gravity="center"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_weight="0.7"
+                android:background="@drawable/hover_selector_two"
+                android:pointerIcon="hand" />
+
+
+            <View
+                android:layout_width="1.5dp"
+                android:layout_height="22dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="5dp"
+                android:background="@color/gray_light2">
+            </View>
+
+
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:id="@+id/search_btn"
+                android:layout_gravity="center"
+                android:layout_marginRight="6dp"
+                android:layout_weight="0.8"
+                android:background="@drawable/micbuttonbackground"
+                android:src="@drawable/ic_baseline_search_24"
+                android:pointerIcon="hand" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.7"
+            >
+            <ImageButton
+                android:id="@+id/btnAddtobookmarks"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_stars_24">
+            </ImageButton>
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</androidx.appcompat.widget.Toolbar>
+

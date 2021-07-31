@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Smile Browser</string>
+    <string name="top_title_newtab">New Tab</string>
+    <string name="top_title_history">History</string>
+    <string name="top_title_download">Download</string>
+    <string name="top_title_desktopsite">Desktop Site</string>
+    <string name="helpandfeedback">Help  Feedback</string>
+    <string name="top_title_settting">Setting</string>
+    <string name="top_title_aboutdeveloper">About Developer</string>
+    <string name="top_title_logout">Log Out</string>
+    <string name="top_title_login">Log In</string>
+    <string name="top_title_LiveTv">Live News</string>
+    <string name="go_btn">Go</string>
+    <string name="refresh">Refresh</string>
+    <string name="favourite">Show Bookmarks</string>
+    <string name="download_title">download Title</string>
+    <string name="download_file">File Name</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="exitConfirmation">Are you sure you want to Exit</string>
+    <string name="developerinfo"> I am Nafis foad foysal </string>
+    <string name="top_title_ScanBarCode">Scan Qr Code</string>
+</resources>

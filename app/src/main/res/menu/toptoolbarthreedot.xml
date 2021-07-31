@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/refbtn"
+        android:title="@string/refresh"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/history"
+        android:title="@string/top_title_history"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/setting"
+        android:title="@string/top_title_settting"
+        app:showAsAction="never"/>
+
+
+    <item
+        android:id="@+id/download"
+        android:title="@string/top_title_download"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/ScanBarCode"
+        android:title="@string/top_title_ScanBarCode"
+        app:showAsAction="never"/>
+
+
+    <item
+        android:id="@+id/DesktopMode"
+        android:title="Desktop Mode"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/favouritestar"
+        android:title="@string/favourite"
+        android:icon="@drawable/ic_stars_black_24dp"
+        app:showAsAction="never"/>
+
+
+    <item
+        android:id="@+id/aboutdeveloper"
+        android:title="@string/top_title_aboutdeveloper"
+        app:showAsAction="never"/>
+
+</menu>
